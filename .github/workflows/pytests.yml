@@ -1,7 +1,7 @@
 name: Code checks
 on:
   push:
-    branches: [master]
+    branches: [ master ]
 
 jobs:
   build:
