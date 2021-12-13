@@ -15,5 +15,9 @@ jobs:
           python-version: 3.9
       - name: Install numpy
         run: python -m pip install numpy
-      - name: Run Tests
+      - name: Run Test1
         run: python -m unittest test1.py
+      - name: Run Test2
+        run: python -m unittest test2.py
+      - name: Run Test3
+        run: python -m unittest test3.py
