@@ -35,7 +35,6 @@ def multi(numb):
     for i in numb:
         try:
             s *= i
-            print(s, i)
         except MemoryError:
             print('!')
             raise
