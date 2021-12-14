@@ -35,7 +35,7 @@ def multi(numb):
     for i in numb:
         try:
             s *= i
-        except MemoryError:
+        except OverflowError:
             print('!')
             raise
     return s
